@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CTI Website</title>
+
+    <!-- ICON SCOUT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <!--SWIPER JS-->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>Cyber Threat Intelligence</h4></a>
+            <ul class="nav__menu">  
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactform.html">Contact</a></li>
+                <!-- <li><a href="CyberGuard\static\dashboard.html">Dashboard</a></li> -->
+                <li class="cyberhub-dropdown">
+                    <a href="#" onclick="toggleCyberhub()">CyberHub ⬇</a>
+                    <div class="dropdown" id="cyberhubMenu">
+                        <a href="Functions\code-scanner\templates\index.html">🛡️ Code Scanner</a>
+                        <a href="Functions\VirusTotalScanner\frontend\index.html">💻 Virus Scanner</a>
+                        <a href="Quiz Game\index.html">🎮 Quiz Game</a>
+                        <li><a href="CTI-Login-Signup\login.html">Logout</a></li>
+                    </div>
+                </li>
+                
+                <style>
+                    .cyberhub-dropdown {
+                        position: relative;
+                    }
+                
+                    .dropdown {
+                        display: none;
+                        position: absolute;
+                        top: 100%;
+                        left: 0;
+                        background: #444;
+                        min-width: 180px;
+                        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+                        border-radius: 5px;
+                        z-index: 1000;
+                    }
+                
+                    .dropdown a {
+                        display: block;
+                        padding: 10px;
+                        color: white;
+                        text-decoration: none;
+                    }
+                
+                    .dropdown a:hover {
+                        background: #ffffff;
+                    }
+                </style>
+                
+                <script>
+                    function toggleCyberhub() {
+                        var dropdown = document.getElementById("cyberhubMenu");
+                        dropdown.style.display = (dropdown.style.display === "block") ? "none" : "block";
+                    }
+                
+                    // Close dropdown when clicking outside
+                    document.addEventListener("click", function(event) {
+                        var dropdown = document.getElementById("cyberhubMenu");
+                        var cyberhubLink = document.querySelector(".cyberhub-dropdown a");
+                
+                        if (!cyberhubLink.contains(event.target) && !dropdown.contains(event.target)) {
+                            dropdown.style.display = "none";
+                        }
+                    });
+                </script>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></i></button>
+
+        </div>
+    </nav>
+    
+    <!--===============================END OF NAVBAR================================-->
+
+    <header>
+        <div class="container header_container">
+            <div class="header__left">
+                <h1>Empower Your Defense with Cyber Threat Intelligence</h1>
+                <p>
+                    Stay ahead of evolving threats with real-time insights and proactive security measures. Protect, detect, and respond with confidence.
+                </p>
+                <!-- <a href="index.html" class="btn btn-primary">Get Started</a> -->
+            </div>
+            <div class="header_right">
+                <div class="header_right-image">
+                    <img src="images/protection.png">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!----=================================END OF HEADER==================================-->
+
+    <section class="categories">
+        <div class="container categories_container">
+            <div class="categories__left">
+                <h1>Categories of Cyber Threats</h1>
+                <h2>OWASP Top 10</h2>
+                <p>
+                    Explore the diverse types of cyber threats including malware, phishing attacks, ransomware, and insider threats. Stay informed to safeguard your digital assets. 
+                </p>
+            </div>
+
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-shield-check"></i></span>
+                    </span>
+                    <h5>Broken Access Control</h5>
+                    <p>Improperly enforced restrictions on user actions, leading to unauthorized access to resources or functions.</p>
+                    <a href="Vulnerabilities\vuln1.html" class="category__link">Learn More</a>
+                </article>
+
+                    <article class="category">
+                        <span class="category__icon"><i class="uil uil-virus-slash"></i></span>
+                        </span>
+                        <h5>Cryptographic Failures</h5>
+                        <p>Weaknesses in the implementation of cryptography, such as poor key management or outdated algorithms, compromising sensitive data.</p>
+                        <a href="Vulnerabilities\vuln2.html" class="category__link">Learn More</a>
+
+                    </article>
+
+                        <article class="category">
+                            <span class="category__icon"><i class="uil uil-bug"></i></span>
+                            </span>
+                            <h5>Injection</h5>
+                            <p>Unsanitized user input is executed as part of a query or command, allowing attackers to manipulate databases or systems.</p>
+                            <a href="Vulnerabilities\vuln3.html" class="category__link">Learn More</a>
+
+                        </article>
+
+                    
+                        <article class="category">
+                            <span class="category__icon"><i class="uil uil-bolt-alt"></i></span>
+                            </span>
+                            <h5>Insecure Design</h5>
+                            <p>Applications are designed with flaws or without considering security threats, leading to exploitable vulnerabilities</p>
+                            <a href="Vulnerabilities\vuln4.html" class="category__link">Learn More</a>
+
+                        </article>
+
+                    
+                        <article class="category">
+                            <span class="category__icon"><i class="uil uil-server-network-alt"></i></span>
+                            </span>
+                            <h5>Security Misconfigurations</h5>
+                            <p>Incorrect configuration of security controls, leaving systems exposed to attacks.</p>
+                            <a href="Vulnerabilities\vuln5.html" class="category__link">Learn More</a>
+
+                        </article>
+
+                    
+                        <article class="category">
+                            <span class="category__icon"><i class="uil uil-lock-access"></i></span>
+                            </span>
+                            <h5>Vulnerable and Outdated Components</h5>
+                            <p>Use of outdated libraries or software that contain known security flaws.</p>
+                            <a href="Vulnerabilities\vuln6.html" class="category__link">Learn More</a>
+                        </article>
+
+                        <article class="category">
+                            <span class="category__icon"><i class="uil uil-document-info"></i></span>
+                            </span>
+                            <h5>Identification and Authentication Failures</h5>
+                            <p>Inadequate protection of software and data from tampering or unauthorized changes.</p>
+                            <a href="Vulnerabilities\vuln7.html" class="category__link">Learn More</a>
+
+                        </article>
+
+                        <article class="category">
+                            <span class="category__icon"><i class="uil uil-document-info"></i></span>
+                            </span>
+                            <h5>Software and Data Integrity Failures</h5>
+                            <p>Provide actionable insights on emerging threats and attack patterns</p>
+                            <a href="Vulnerabilities\vuln8.html" class="category__link">Learn More</a>
+
+                        </article>
+
+                        <article class="category">
+                            <span class="category__icon"><i class="uil uil-document-info"></i></span>
+                            </span>
+                            <h5>Security Logging and Monitoring Failures</h5>
+                            <p>Lack of proper logging or failure to monitor suspicious activities, delaying detection of security breaches.</p>
+                            <a href="Vulnerabilities\vuln9.html" class="category__link">Learn More</a>
+
+                        </article>
+
+                        <article class="category">
+                            <span class="category__icon"><i class="uil uil-document-info"></i></span>
+                            </span>
+                            <h5>Server-Side Request Forgery (SSRF)</h5>
+                            <p>Attackers trick the server into making unauthorized requests to internal resources.</p>
+                            <a href="Vulnerabilities\vuln10.html" class="category__link">Learn More</a>
+
+                        </article>
+                </div>
+            </div>
+    </section>
+
+    <!--==============================END OF CATEGORIES==============================-->
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+            <article class="faq open">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>What are the most common types of cyber threats?</h4>
+                    <p>
+                        The most common types include malware, ransomware, phishing attacks, denial-of-service (DoS) attacks, and insider threats.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq open">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How can I protect my system from ransomware attacks?</h4>
+                    <p>
+                        Use strong antivirus software, keep your system updated, avoid suspicious emails, and regularly back up your data to mitigate the impact of ransomware attacks.
+                </div>
+            </article>
+
+            <article class="faq open">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>What is the difference between a vulnerability and a threat?</h4>
+                    <p>
+                        A vulnerability is a weakness in a system that can be exploited, while a threat is a potential danger that can exploit a vulnerability to cause harm.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq open">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>What are the signs of a phishing attack ?</h4>
+                    <p>
+                        Suspicious emails, unexpected attachments, fake login pages, urgent requests for sensitive information, and unusual sender addresses are common signs of phishing attacks. 
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq open">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How does a firewall help in preventing cyber threats ?</h4>
+                    <p>
+                        A firewall acts as a barrier between your internal network and external threats by monitoring and controlling incoming and outgoing network traffic based on security rules. 
+                    </p>
+                </div>
+            </article>
+
+
+            <article class="faq open">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>What is social engineering in cybersecurity ?</h4>
+                    <p>
+                        Social engineering is a technique used by attackers to manipulate individuals into divulging confidential information, often by exploiting human emotions and trust. 
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <!--================================================================END OF FAQS=============================================-->
+
+    <section class="container testimonials__container mySwiper">
+
+    </section>
+
+
+
+    <!--================================================================END OF TESTIMONIALS=============================================-->
+
+    <footer>
+        <div class="footer__container">
+            <div class="footer__1">
+            <a href="index.html" class="footer_logo"><h4>Cyber Threat Intelligence</h4></a>
+            <p>
+                2023 Cyber Threat Intelligence. All rights reserved.
+            </p>
+        </div>
+
+
+        <div class="footer__4">
+            <h4>Contact Us</h4>
+            <div>
+                <!-- <p>Phone : +91 123456789</p> -->
+                <p>Email : cyberthreatintelligence111@gmail.com</p>
+            </div>
+        
+        <!-- <ul class="footer__socials">
+            <li>
+                <a href="#"><i class="uil uil-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="uil uil-instagram-alt"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="uil uil-twitter"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+            </li>
+        </ul> -->
+        </div>
+
+        
+    </div>
+            <div class="footer__copyright">
+                <small>Copyright &copy; Cyber Threat Intelligence</small>
+            </div>
+    </footer>
+
+    <script src="./style.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          // when window width is >= 600px
+          breakpoints: {
+            600: {
+              slidesPerView: 2,
+            }
+          }
+        });
+      </script>
+
+      <script>
+        (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="tL8lvZZbdGCRaGpCGrZol";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+        </script>
+
+</body>
+</html>
