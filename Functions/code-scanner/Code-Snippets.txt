@@ -1,0 +1,63 @@
+vulnerable:
+password = "admin123"
+
+Secure:
+import os
+password = os.getenv("APP_PASSWORD")
+_______________________________________________________
+
+Vulnerable:
+user_input = "2 + 2"
+result = eval(user_input)
+
+Secure:
+import ast
+user_input = "2 + 2"
+result = ast.literal_eval(user_input)
+_______________________________________________________
+
+Vulnerable:
+import os
+os.system("rm -rf /")
+
+Secure: (Not fully)
+import subprocess
+subprocess.run(["rm", "-rf", "/"], check=True)
+
+_____________________________________________________
+
+Vulnerable:
+import pickle
+data = pickle.loads(b"some_serialized_data")
+
+Secure:
+import json
+data = json.loads('{"name": "Bhavesh"}')
+
+_____________________________________________________
+
+Vulnerable:
+from hashlib import md5
+hash = md5(b"password").hexdigest()
+
+Secure:
+from hashlib import sha256
+hash = sha256(b"password").hexdigest()
+
+____________________________________________________
+
+Vulnerable:
+api_url = "http://192.168.1.1/api"
+
+Secure:
+import os
+api_url = os.getenv("API_URL")
+____________________________________________________
+
+Vulnerable:
+import subprocess
+subprocess.call("ls -la", shell=True)
+
+Secure: (Not fully)
+import subprocess
+subprocess.run(["ls", "-la"], check=True)

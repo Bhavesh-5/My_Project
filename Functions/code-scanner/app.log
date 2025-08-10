@@ -1,0 +1,698 @@
+2025-08-01 15:04:13,648 WARNING: * Debugger is active!
+2025-08-01 15:04:13,652 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:04:31,370 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-01 15:04:31,370 INFO:[33mPress CTRL+C to quit[0m
+2025-08-01 15:04:31,371 INFO: * Restarting with stat
+2025-08-01 15:04:31,548 WARNING: * Debugger is active!
+2025-08-01 15:04:31,551 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:05:13,380 INFO:127.0.0.1 - - [01/Aug/2025 15:05:13] "GET / HTTP/1.1" 200 -
+2025-08-01 15:05:17,701 INFO:127.0.0.1 - - [01/Aug/2025 15:05:17] "GET / HTTP/1.1" 200 -
+2025-08-01 15:05:47,033 INFO:127.0.0.1 - - [01/Aug/2025 15:05:47] "GET / HTTP/1.1" 200 -
+2025-08-01 15:05:56,037 ERROR:Unexpected error: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-08-01 15:05:56,037 INFO:127.0.0.1 - - [01/Aug/2025 15:05:56] "[35m[1mPOST /scan HTTP/1.1[0m" 500 -
+2025-08-01 15:08:47,333 INFO: * Detected change in 'D:\\code-scanner\\app.py', reloading
+2025-08-01 15:08:47,400 INFO: * Restarting with stat
+2025-08-01 15:09:52,681 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-01 15:09:52,681 INFO:[33mPress CTRL+C to quit[0m
+2025-08-01 15:09:52,681 INFO: * Restarting with stat
+2025-08-01 15:09:52,856 WARNING: * Debugger is active!
+2025-08-01 15:09:52,859 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:10:00,328 INFO:127.0.0.1 - - [01/Aug/2025 15:10:00] "GET / HTTP/1.1" 200 -
+2025-08-01 15:13:51,887 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-01 15:13:51,887 INFO:[33mPress CTRL+C to quit[0m
+2025-08-01 15:13:51,888 INFO: * Restarting with stat
+2025-08-01 15:13:52,062 WARNING: * Debugger is active!
+2025-08-01 15:13:52,065 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:14:00,599 INFO:127.0.0.1 - - [01/Aug/2025 15:14:00] "GET / HTTP/1.1" 200 -
+2025-08-01 15:14:06,873 INFO:Scanning user-submitted code
+2025-08-01 15:14:07,175 INFO:127.0.0.1 - - [01/Aug/2025 15:14:07] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:14:19,223 INFO:127.0.0.1 - - [01/Aug/2025 15:14:19] "GET / HTTP/1.1" 200 -
+2025-08-01 15:14:36,431 INFO:Scanning user-submitted code
+2025-08-01 15:14:36,721 INFO:127.0.0.1 - - [01/Aug/2025 15:14:36] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:14:45,407 INFO:127.0.0.1 - - [01/Aug/2025 15:14:45] "GET / HTTP/1.1" 200 -
+2025-08-01 15:32:17,688 INFO: * Detected change in 'D:\\code-scanner\\app.py', reloading
+2025-08-01 15:32:17,791 INFO: * Restarting with stat
+2025-08-01 15:32:17,986 WARNING: * Debugger is active!
+2025-08-01 15:32:17,989 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:32:30,038 INFO: * Detected change in 'D:\\code-scanner\\custom_scanner.py', reloading
+2025-08-01 15:32:30,102 INFO: * Restarting with stat
+2025-08-01 15:32:30,302 WARNING: * Debugger is active!
+2025-08-01 15:32:30,305 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:34:11,178 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-01 15:34:11,178 INFO:[33mPress CTRL+C to quit[0m
+2025-08-01 15:34:11,179 INFO: * Restarting with stat
+2025-08-01 15:34:11,354 WARNING: * Debugger is active!
+2025-08-01 15:34:11,357 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:34:20,505 ERROR:127.0.0.1 - - [01/Aug/2025 15:34:20] code 400, message Bad request version ('\x8d/\x93¥ÞW4&Ü\x9f\x98EÜ£\x93×ñ\x03c\x8a.@\x7f\x04u~å\x8fçØ¬1\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-08-01 15:34:20,506 INFO:127.0.0.1 - - [01/Aug/2025 15:34:20] "[31m[1m\x16\x03\x01\x07a\x01\x00\x07]\x03\x033¢d\x129yÝò¶Ãù­\x97ÇðD\x1a\x12`'¤\x12?\x85q\x09gªXñÔ\x85 \x8d/\x93¥ÞW4&Ü\x9f\x98EÜ£\x93×ñ\x03c\x8a.@\x7f\x04u~å\x8fçØ¬1\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-08-01 15:34:20,521 ERROR:127.0.0.1 - - [01/Aug/2025 15:34:20] code 400, message Bad request version ('ûlýB\x8a\x99ÔÈ°Ýpè\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-08-01 15:34:20,521 INFO:127.0.0.1 - - [01/Aug/2025 15:34:20] "[31m[1m\x16\x03\x01\x07a\x01\x00\x07]\x03\x03G\x07½\x96¦Y ­Fèd\x90JÐùç©3Õwðq\x91EH\x0f;ôè-\x93x ¡¨eû¡ú\x1aÇ\x0dõYé3\x03üã\x8c¿\x94\x0bûlýB\x8a\x99ÔÈ°Ýpè\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-08-01 15:34:20,523 ERROR:127.0.0.1 - - [01/Aug/2025 15:34:20] code 400, message Bad request version ('%\x96â\x82>ä\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-08-01 15:34:20,523 INFO:127.0.0.1 - - [01/Aug/2025 15:34:20] "[31m[1m\x16\x03\x01\x02\x90\x01\x00\x02\x8c\x03\x03ºØ\x0c8Ò±Kè\x182.+s}2$AX\x96 qFnìé\x08\x05qL ¼¦ \x14ìø0\x02³þæþ0^\x89üy«Ï\x10hþ\x1e\x8fÕC/\x18 %\x96â\x82>ä\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-08-01 15:35:23,289 INFO:127.0.0.1 - - [01/Aug/2025 15:35:23] "GET / HTTP/1.1" 200 -
+2025-08-01 15:35:23,373 INFO:127.0.0.1 - - [01/Aug/2025 15:35:23] "GET /static/style.css HTTP/1.1" 200 -
+2025-08-01 15:35:23,388 INFO:127.0.0.1 - - [01/Aug/2025 15:35:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-01 15:35:35,646 INFO:Scanning code...
+2025-08-01 15:35:35,649 INFO: * Detected change in 'D:\\code-scanner\\uploads\\vulnerable.py', reloading
+2025-08-01 15:35:35,704 INFO: * Restarting with stat
+2025-08-01 15:35:35,975 WARNING: * Debugger is active!
+2025-08-01 15:35:35,979 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:37:45,435 INFO: * Detected change in 'D:\\code-scanner\\app.py', reloading
+2025-08-01 15:37:45,514 INFO: * Restarting with stat
+2025-08-01 15:37:45,740 WARNING: * Debugger is active!
+2025-08-01 15:37:45,745 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:38:10,832 INFO: * Detected change in 'D:\\code-scanner\\app.py', reloading
+2025-08-01 15:38:10,894 INFO: * Restarting with stat
+2025-08-01 15:38:11,086 WARNING: * Debugger is active!
+2025-08-01 15:38:11,090 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:38:37,165 INFO:127.0.0.1 - - [01/Aug/2025 15:38:37] "GET / HTTP/1.1" 200 -
+2025-08-01 15:38:37,227 INFO:127.0.0.1 - - [01/Aug/2025 15:38:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:38:45,026 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-01 15:38:45,026 INFO:[33mPress CTRL+C to quit[0m
+2025-08-01 15:38:45,027 INFO: * Restarting with stat
+2025-08-01 15:38:45,199 WARNING: * Debugger is active!
+2025-08-01 15:38:45,202 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:38:48,485 INFO:127.0.0.1 - - [01/Aug/2025 15:38:48] "GET / HTTP/1.1" 200 -
+2025-08-01 15:38:48,537 INFO:127.0.0.1 - - [01/Aug/2025 15:38:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:38:55,127 INFO:Scanning code...
+2025-08-01 15:38:55,236 INFO: * Detected change in 'D:\\code-scanner\\uploads\\vulnerable.py', reloading
+2025-08-01 15:38:55,287 INFO: * Restarting with stat
+2025-08-01 15:38:55,547 WARNING: * Debugger is active!
+2025-08-01 15:38:55,550 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:39:10,609 INFO: * Detected change in 'D:\\code-scanner\\vulnerable.py', reloading
+2025-08-01 15:39:10,643 INFO: * Restarting with stat
+2025-08-01 15:39:10,832 WARNING: * Debugger is active!
+2025-08-01 15:39:10,835 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:39:21,878 INFO: * Detected change in 'D:\\code-scanner\\vulnerable.py', reloading
+2025-08-01 15:39:21,913 INFO: * Restarting with stat
+2025-08-01 15:39:22,097 WARNING: * Debugger is active!
+2025-08-01 15:39:22,100 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:39:34,698 INFO:127.0.0.1 - - [01/Aug/2025 15:39:34] "GET / HTTP/1.1" 200 -
+2025-08-01 15:39:34,779 INFO:127.0.0.1 - - [01/Aug/2025 15:39:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:39:42,771 INFO:Scanning code...
+2025-08-01 15:39:43,108 INFO:127.0.0.1 - - [01/Aug/2025 15:39:43] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:39:43,141 INFO:127.0.0.1 - - [01/Aug/2025 15:39:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:39:43,168 INFO: * Detected change in 'D:\\code-scanner\\uploads\\vulnerable.py', reloading
+2025-08-01 15:39:43,230 INFO: * Restarting with stat
+2025-08-01 15:39:43,493 WARNING: * Debugger is active!
+2025-08-01 15:39:43,496 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:44:15,695 INFO: * Detected change in 'D:\\code-scanner\\custom_scanner.py', reloading
+2025-08-01 15:44:15,730 INFO: * Restarting with stat
+2025-08-01 15:44:15,956 WARNING: * Debugger is active!
+2025-08-01 15:44:15,959 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:44:29,679 INFO:127.0.0.1 - - [01/Aug/2025 15:44:29] "GET / HTTP/1.1" 200 -
+2025-08-01 15:44:29,760 INFO:127.0.0.1 - - [01/Aug/2025 15:44:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:44:37,016 INFO:Scanning code...
+2025-08-01 15:44:37,026 INFO: * Detected change in 'D:\\code-scanner\\uploads\\vulnerable.py', reloading
+2025-08-01 15:44:37,077 INFO: * Restarting with stat
+2025-08-01 15:44:37,361 WARNING: * Debugger is active!
+2025-08-01 15:44:37,365 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:44:54,393 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-01 15:44:54,393 INFO:[33mPress CTRL+C to quit[0m
+2025-08-01 15:44:54,394 INFO: * Restarting with stat
+2025-08-01 15:44:54,573 WARNING: * Debugger is active!
+2025-08-01 15:44:54,576 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:44:59,443 INFO:Scanning code...
+2025-08-01 15:44:59,597 INFO: * Detected change in 'D:\\code-scanner\\uploads\\vulnerable.py', reloading
+2025-08-01 15:44:59,648 INFO: * Restarting with stat
+2025-08-01 15:44:59,901 WARNING: * Debugger is active!
+2025-08-01 15:44:59,905 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:45:08,448 INFO:Scanning code...
+2025-08-01 15:45:08,767 INFO:127.0.0.1 - - [01/Aug/2025 15:45:08] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:45:08,835 INFO:127.0.0.1 - - [01/Aug/2025 15:45:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:45:08,939 INFO: * Detected change in 'D:\\code-scanner\\uploads\\vulnerable.py', reloading
+2025-08-01 15:45:08,998 INFO: * Restarting with stat
+2025-08-01 15:45:09,225 WARNING: * Debugger is active!
+2025-08-01 15:45:09,231 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:45:15,248 INFO:127.0.0.1 - - [01/Aug/2025 15:45:15] "GET / HTTP/1.1" 200 -
+2025-08-01 15:45:15,320 INFO:127.0.0.1 - - [01/Aug/2025 15:45:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:45:21,556 INFO:127.0.0.1 - - [01/Aug/2025 15:45:21] "GET / HTTP/1.1" 200 -
+2025-08-01 15:45:21,594 INFO:127.0.0.1 - - [01/Aug/2025 15:45:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:45:33,897 INFO:Scanning code...
+2025-08-01 15:45:34,221 INFO:127.0.0.1 - - [01/Aug/2025 15:45:34] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:45:34,254 INFO:127.0.0.1 - - [01/Aug/2025 15:45:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:47:23,397 INFO:Scanning code...
+2025-08-01 15:47:23,708 INFO:127.0.0.1 - - [01/Aug/2025 15:47:23] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:47:23,738 INFO:127.0.0.1 - - [01/Aug/2025 15:47:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:47:44,061 INFO:Scanning code...
+2025-08-01 15:47:44,373 INFO:127.0.0.1 - - [01/Aug/2025 15:47:44] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:47:44,403 INFO:127.0.0.1 - - [01/Aug/2025 15:47:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:48:04,882 INFO:Scanning code...
+2025-08-01 15:48:05,190 INFO:127.0.0.1 - - [01/Aug/2025 15:48:05] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:48:05,218 INFO:127.0.0.1 - - [01/Aug/2025 15:48:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:48:26,865 INFO:Scanning code...
+2025-08-01 15:48:27,173 INFO:127.0.0.1 - - [01/Aug/2025 15:48:27] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:48:27,205 INFO:127.0.0.1 - - [01/Aug/2025 15:48:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:48:29,728 INFO:127.0.0.1 - - [01/Aug/2025 15:48:29] "GET / HTTP/1.1" 200 -
+2025-08-01 15:48:29,765 INFO:127.0.0.1 - - [01/Aug/2025 15:48:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:48:56,902 INFO:Scanning code...
+2025-08-01 15:48:57,213 INFO:127.0.0.1 - - [01/Aug/2025 15:48:57] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:48:57,246 INFO:127.0.0.1 - - [01/Aug/2025 15:48:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:48:59,424 INFO:127.0.0.1 - - [01/Aug/2025 15:48:59] "GET / HTTP/1.1" 200 -
+2025-08-01 15:48:59,462 INFO:127.0.0.1 - - [01/Aug/2025 15:48:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:51:26,583 INFO: * Detected change in 'D:\\code-scanner\\custom_scanner.py', reloading
+2025-08-01 15:51:26,640 INFO: * Restarting with stat
+2025-08-01 15:51:26,865 WARNING: * Debugger is active!
+2025-08-01 15:51:26,868 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:52:12,004 INFO: * Detected change in 'D:\\code-scanner\\custom_scanner.py', reloading
+2025-08-01 15:52:12,064 INFO: * Restarting with stat
+2025-08-01 15:52:12,268 WARNING: * Debugger is active!
+2025-08-01 15:52:12,271 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:52:27,161 INFO:Scanning code...
+2025-08-01 15:52:27,473 INFO:127.0.0.1 - - [01/Aug/2025 15:52:27] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:52:27,540 INFO:127.0.0.1 - - [01/Aug/2025 15:52:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:52:31,502 INFO:127.0.0.1 - - [01/Aug/2025 15:52:31] "GET / HTTP/1.1" 200 -
+2025-08-01 15:52:31,542 INFO:127.0.0.1 - - [01/Aug/2025 15:52:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:52:38,423 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-01 15:52:38,423 INFO:[33mPress CTRL+C to quit[0m
+2025-08-01 15:52:38,424 INFO: * Restarting with stat
+2025-08-01 15:52:38,599 WARNING: * Debugger is active!
+2025-08-01 15:52:38,602 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:52:43,535 INFO:Scanning code...
+2025-08-01 15:52:43,844 INFO:127.0.0.1 - - [01/Aug/2025 15:52:43] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:52:43,902 INFO:127.0.0.1 - - [01/Aug/2025 15:52:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:52:49,106 INFO:127.0.0.1 - - [01/Aug/2025 15:52:49] "GET / HTTP/1.1" 200 -
+2025-08-01 15:52:49,148 INFO:127.0.0.1 - - [01/Aug/2025 15:52:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:54:08,891 INFO: * Detected change in 'D:\\code-scanner\\custom_scanner.py', reloading
+2025-08-01 15:54:08,950 INFO: * Restarting with stat
+2025-08-01 15:54:09,193 WARNING: * Debugger is active!
+2025-08-01 15:54:09,197 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:54:20,369 INFO:Scanning code...
+2025-08-01 15:54:20,679 INFO:127.0.0.1 - - [01/Aug/2025 15:54:20] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:54:20,752 INFO:127.0.0.1 - - [01/Aug/2025 15:54:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:54:42,922 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-01 15:54:42,922 INFO:[33mPress CTRL+C to quit[0m
+2025-08-01 15:54:42,923 INFO: * Restarting with stat
+2025-08-01 15:54:43,099 WARNING: * Debugger is active!
+2025-08-01 15:54:43,102 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:54:45,849 INFO:127.0.0.1 - - [01/Aug/2025 15:54:45] "GET / HTTP/1.1" 200 -
+2025-08-01 15:54:45,900 INFO:127.0.0.1 - - [01/Aug/2025 15:54:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:54:51,510 INFO:Scanning code...
+2025-08-01 15:54:51,823 INFO:127.0.0.1 - - [01/Aug/2025 15:54:51] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:54:51,855 INFO:127.0.0.1 - - [01/Aug/2025 15:54:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:55:00,978 INFO:Scanning code...
+2025-08-01 15:55:01,294 INFO:127.0.0.1 - - [01/Aug/2025 15:55:01] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:55:01,324 INFO:127.0.0.1 - - [01/Aug/2025 15:55:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:55:46,302 INFO: * Detected change in 'D:\\code-scanner\\custom_scanner.py', reloading
+2025-08-01 15:55:46,368 INFO: * Restarting with stat
+2025-08-01 15:55:46,572 WARNING: * Debugger is active!
+2025-08-01 15:55:46,575 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:55:50,629 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-01 15:55:50,629 INFO:[33mPress CTRL+C to quit[0m
+2025-08-01 15:55:50,630 INFO: * Restarting with stat
+2025-08-01 15:55:50,818 WARNING: * Debugger is active!
+2025-08-01 15:55:50,821 INFO: * Debugger PIN: 233-694-168
+2025-08-01 15:55:56,306 INFO:127.0.0.1 - - [01/Aug/2025 15:55:56] "GET / HTTP/1.1" 200 -
+2025-08-01 15:55:56,388 INFO:127.0.0.1 - - [01/Aug/2025 15:55:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 15:56:07,037 INFO:Scanning code...
+2025-08-01 15:56:07,343 INFO:127.0.0.1 - - [01/Aug/2025 15:56:07] "POST /scan HTTP/1.1" 200 -
+2025-08-01 15:56:07,373 INFO:127.0.0.1 - - [01/Aug/2025 15:56:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:02:35,058 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-01 16:02:35,059 INFO:[33mPress CTRL+C to quit[0m
+2025-08-01 16:02:35,059 INFO: * Restarting with stat
+2025-08-01 16:02:35,236 WARNING: * Debugger is active!
+2025-08-01 16:02:35,240 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:02:39,607 INFO:127.0.0.1 - - [01/Aug/2025 16:02:39] "GET / HTTP/1.1" 200 -
+2025-08-01 16:02:39,684 INFO:127.0.0.1 - - [01/Aug/2025 16:02:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:02:50,325 INFO:Scanning code...
+2025-08-01 16:02:50,667 INFO:127.0.0.1 - - [01/Aug/2025 16:02:50] "POST /scan HTTP/1.1" 200 -
+2025-08-01 16:02:50,702 INFO:127.0.0.1 - - [01/Aug/2025 16:02:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:20:46,623 INFO: * Detected change in 'D:\\code-scanner\\custom_scanner.py', reloading
+2025-08-01 16:20:46,702 INFO: * Restarting with stat
+2025-08-01 16:20:46,908 WARNING: * Debugger is active!
+2025-08-01 16:20:46,911 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:21:28,577 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-01 16:21:28,577 INFO:[33mPress CTRL+C to quit[0m
+2025-08-01 16:21:28,577 INFO: * Restarting with stat
+2025-08-01 16:21:28,757 WARNING: * Debugger is active!
+2025-08-01 16:21:28,760 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:21:55,206 INFO:127.0.0.1 - - [01/Aug/2025 16:21:55] "GET / HTTP/1.1" 200 -
+2025-08-01 16:21:55,288 INFO:127.0.0.1 - - [01/Aug/2025 16:21:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:21:58,488 INFO:Scanning code...
+2025-08-01 16:21:58,846 INFO:127.0.0.1 - - [01/Aug/2025 16:21:58] "POST /scan HTTP/1.1" 200 -
+2025-08-01 16:21:58,873 INFO:127.0.0.1 - - [01/Aug/2025 16:21:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:28:01,078 INFO: * Detected change in 'D:\\code-scanner\\custom_scanner.py', reloading
+2025-08-01 16:28:01,188 INFO: * Restarting with stat
+2025-08-01 16:29:35,217 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-01 16:29:35,218 INFO:[33mPress CTRL+C to quit[0m
+2025-08-01 16:29:35,218 INFO: * Restarting with stat
+2025-08-01 16:29:35,400 WARNING: * Debugger is active!
+2025-08-01 16:29:35,403 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:29:38,430 INFO:127.0.0.1 - - [01/Aug/2025 16:29:38] "GET / HTTP/1.1" 200 -
+2025-08-01 16:29:38,496 INFO:127.0.0.1 - - [01/Aug/2025 16:29:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:30:08,971 INFO:Scanning code...
+2025-08-01 16:30:08,972 ERROR:Scan failed: CustomSecurityScanner.__init__() takes 1 positional argument but 2 were given
+2025-08-01 16:30:08,972 INFO:127.0.0.1 - - [01/Aug/2025 16:30:08] "[35m[1mPOST /scan HTTP/1.1[0m" 500 -
+2025-08-01 16:32:13,105 INFO:Scanning code...
+2025-08-01 16:32:13,105 ERROR:Scan failed: CustomSecurityScanner.__init__() takes 1 positional argument but 2 were given
+2025-08-01 16:32:13,105 INFO:127.0.0.1 - - [01/Aug/2025 16:32:13] "[35m[1mPOST /scan HTTP/1.1[0m" 500 -
+2025-08-01 16:36:46,464 INFO: * Detected change in 'D:\\code-scanner\\app.py', reloading
+2025-08-01 16:36:46,571 INFO: * Restarting with stat
+2025-08-01 16:36:46,951 WARNING: * Debugger is active!
+2025-08-01 16:36:46,955 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:36:54,995 INFO: * Detected change in 'D:\\code-scanner\\custom_scanner.py', reloading
+2025-08-01 16:36:55,079 INFO: * Restarting with stat
+2025-08-01 16:36:55,378 WARNING: * Debugger is active!
+2025-08-01 16:36:55,384 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:37:04,449 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-01 16:37:04,449 INFO:[33mPress CTRL+C to quit[0m
+2025-08-01 16:37:04,450 INFO: * Restarting with stat
+2025-08-01 16:37:04,654 WARNING: * Debugger is active!
+2025-08-01 16:37:04,657 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:37:12,396 INFO:Scanning code...
+2025-08-01 16:37:12,401 INFO:127.0.0.1 - - [01/Aug/2025 16:37:12] "POST /scan HTTP/1.1" 200 -
+2025-08-01 16:37:12,508 INFO:127.0.0.1 - - [01/Aug/2025 16:37:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:37:19,909 INFO:127.0.0.1 - - [01/Aug/2025 16:37:19] "GET / HTTP/1.1" 200 -
+2025-08-01 16:37:19,966 INFO:127.0.0.1 - - [01/Aug/2025 16:37:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:38:10,916 INFO: * Detected change in 'D:\\code-scanner\\app.py', reloading
+2025-08-01 16:38:11,014 INFO: * Restarting with stat
+2025-08-01 16:38:11,399 WARNING: * Debugger is active!
+2025-08-01 16:38:11,404 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:38:25,746 INFO:Scanning code...
+2025-08-01 16:38:26,155 INFO:127.0.0.1 - - [01/Aug/2025 16:38:26] "POST /scan HTTP/1.1" 200 -
+2025-08-01 16:38:26,235 INFO:127.0.0.1 - - [01/Aug/2025 16:38:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:38:26,471 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:38:26,532 INFO: * Restarting with stat
+2025-08-01 16:38:26,832 WARNING: * Debugger is active!
+2025-08-01 16:38:26,838 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:39:36,684 INFO:127.0.0.1 - - [01/Aug/2025 16:39:36] "GET / HTTP/1.1" 200 -
+2025-08-01 16:39:36,781 INFO:127.0.0.1 - - [01/Aug/2025 16:39:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:39:39,781 INFO:Scanning code...
+2025-08-01 16:39:40,060 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:39:40,115 INFO: * Restarting with stat
+2025-08-01 16:39:40,455 WARNING: * Debugger is active!
+2025-08-01 16:39:40,460 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:39:52,357 INFO:Scanning code...
+2025-08-01 16:39:52,503 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:39:52,552 INFO: * Restarting with stat
+2025-08-01 16:39:52,854 WARNING: * Debugger is active!
+2025-08-01 16:39:52,858 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:39:54,956 INFO:Scanning code...
+2025-08-01 16:39:55,365 INFO:127.0.0.1 - - [01/Aug/2025 16:39:55] "POST /scan HTTP/1.1" 200 -
+2025-08-01 16:39:55,451 INFO:127.0.0.1 - - [01/Aug/2025 16:39:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:39:55,877 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:39:55,968 INFO: * Restarting with stat
+2025-08-01 16:39:56,294 WARNING: * Debugger is active!
+2025-08-01 16:39:56,298 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:40:04,022 INFO:127.0.0.1 - - [01/Aug/2025 16:40:04] "GET / HTTP/1.1" 200 -
+2025-08-01 16:40:04,175 INFO:127.0.0.1 - - [01/Aug/2025 16:40:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:40:18,606 INFO:Scanning code...
+2025-08-01 16:40:19,005 INFO:127.0.0.1 - - [01/Aug/2025 16:40:19] "POST /scan HTTP/1.1" 200 -
+2025-08-01 16:40:19,056 INFO:127.0.0.1 - - [01/Aug/2025 16:40:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:40:19,394 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:40:19,497 INFO: * Restarting with stat
+2025-08-01 16:40:19,837 WARNING: * Debugger is active!
+2025-08-01 16:40:19,840 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:40:47,465 INFO:127.0.0.1 - - [01/Aug/2025 16:40:47] "GET / HTTP/1.1" 200 -
+2025-08-01 16:40:47,610 INFO:127.0.0.1 - - [01/Aug/2025 16:40:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:40:58,049 INFO:Scanning code...
+2025-08-01 16:40:58,459 INFO:127.0.0.1 - - [01/Aug/2025 16:40:58] "POST /scan HTTP/1.1" 200 -
+2025-08-01 16:40:58,505 INFO:127.0.0.1 - - [01/Aug/2025 16:40:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:40:59,022 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:40:59,104 INFO: * Restarting with stat
+2025-08-01 16:40:59,332 WARNING: * Debugger is active!
+2025-08-01 16:40:59,335 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:41:43,302 INFO:127.0.0.1 - - [01/Aug/2025 16:41:43] "GET / HTTP/1.1" 200 -
+2025-08-01 16:41:43,463 INFO:127.0.0.1 - - [01/Aug/2025 16:41:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:41:46,387 INFO:Scanning code...
+2025-08-01 16:41:46,548 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:41:46,678 INFO: * Restarting with stat
+2025-08-01 16:41:47,009 WARNING: * Debugger is active!
+2025-08-01 16:41:47,014 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:41:51,022 INFO:Scanning code...
+2025-08-01 16:41:51,037 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:41:51,109 INFO: * Restarting with stat
+2025-08-01 16:41:51,399 WARNING: * Debugger is active!
+2025-08-01 16:41:51,403 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:41:54,076 INFO:Scanning code...
+2025-08-01 16:41:54,423 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:41:54,484 INFO: * Restarting with stat
+2025-08-01 16:41:54,783 WARNING: * Debugger is active!
+2025-08-01 16:41:54,788 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:41:58,087 INFO:Scanning code...
+2025-08-01 16:41:58,505 INFO:127.0.0.1 - - [01/Aug/2025 16:41:58] "POST /scan HTTP/1.1" 200 -
+2025-08-01 16:41:58,574 INFO:127.0.0.1 - - [01/Aug/2025 16:41:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:41:58,816 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:41:58,879 INFO: * Restarting with stat
+2025-08-01 16:41:59,145 WARNING: * Debugger is active!
+2025-08-01 16:41:59,150 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:42:21,483 INFO:127.0.0.1 - - [01/Aug/2025 16:42:21] "GET / HTTP/1.1" 200 -
+2025-08-01 16:42:21,567 INFO:127.0.0.1 - - [01/Aug/2025 16:42:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:42:23,324 INFO:127.0.0.1 - - [01/Aug/2025 16:42:23] "GET / HTTP/1.1" 200 -
+2025-08-01 16:42:23,431 INFO:127.0.0.1 - - [01/Aug/2025 16:42:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:42:27,577 INFO:Scanning code...
+2025-08-01 16:42:27,889 INFO:127.0.0.1 - - [01/Aug/2025 16:42:27] "POST /scan HTTP/1.1" 200 -
+2025-08-01 16:42:27,922 INFO:127.0.0.1 - - [01/Aug/2025 16:42:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:42:28,270 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:42:28,337 INFO: * Restarting with stat
+2025-08-01 16:42:28,541 WARNING: * Debugger is active!
+2025-08-01 16:42:28,545 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:42:53,287 INFO:127.0.0.1 - - [01/Aug/2025 16:42:53] "GET / HTTP/1.1" 200 -
+2025-08-01 16:42:53,368 INFO:127.0.0.1 - - [01/Aug/2025 16:42:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:42:56,912 INFO:Scanning code...
+2025-08-01 16:42:57,233 INFO:127.0.0.1 - - [01/Aug/2025 16:42:57] "POST /scan HTTP/1.1" 200 -
+2025-08-01 16:42:57,267 INFO:127.0.0.1 - - [01/Aug/2025 16:42:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:42:57,638 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:42:57,698 INFO: * Restarting with stat
+2025-08-01 16:42:57,906 WARNING: * Debugger is active!
+2025-08-01 16:42:57,909 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:43:22,096 INFO:127.0.0.1 - - [01/Aug/2025 16:43:22] "GET / HTTP/1.1" 200 -
+2025-08-01 16:43:22,179 INFO:127.0.0.1 - - [01/Aug/2025 16:43:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:43:27,186 INFO:Scanning code...
+2025-08-01 16:43:27,501 INFO:127.0.0.1 - - [01/Aug/2025 16:43:27] "POST /scan HTTP/1.1" 200 -
+2025-08-01 16:43:27,534 INFO:127.0.0.1 - - [01/Aug/2025 16:43:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:43:27,987 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:43:28,037 INFO: * Restarting with stat
+2025-08-01 16:43:28,247 WARNING: * Debugger is active!
+2025-08-01 16:43:28,250 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:43:47,667 INFO:127.0.0.1 - - [01/Aug/2025 16:43:47] "GET / HTTP/1.1" 200 -
+2025-08-01 16:43:47,738 INFO:127.0.0.1 - - [01/Aug/2025 16:43:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:43:52,162 INFO:Scanning code...
+2025-08-01 16:43:52,307 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:43:52,375 INFO: * Restarting with stat
+2025-08-01 16:43:52,640 WARNING: * Debugger is active!
+2025-08-01 16:43:52,643 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:43:56,407 INFO:Scanning code...
+2025-08-01 16:43:56,661 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:43:56,710 INFO: * Restarting with stat
+2025-08-01 16:43:56,963 WARNING: * Debugger is active!
+2025-08-01 16:43:56,967 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:43:58,970 INFO:Scanning code...
+2025-08-01 16:43:58,982 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:43:59,042 INFO: * Restarting with stat
+2025-08-01 16:43:59,318 WARNING: * Debugger is active!
+2025-08-01 16:43:59,323 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:44:01,446 INFO:Scanning code...
+2025-08-01 16:44:01,768 INFO:127.0.0.1 - - [01/Aug/2025 16:44:01] "POST /scan HTTP/1.1" 200 -
+2025-08-01 16:44:01,816 INFO:127.0.0.1 - - [01/Aug/2025 16:44:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 16:44:02,341 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 16:44:02,379 INFO: * Restarting with stat
+2025-08-01 16:44:02,571 WARNING: * Debugger is active!
+2025-08-01 16:44:02,574 INFO: * Debugger PIN: 233-694-168
+2025-08-01 16:44:34,317 INFO:127.0.0.1 - - [01/Aug/2025 16:44:34] "GET / HTTP/1.1" 200 -
+2025-08-01 16:44:34,404 INFO:127.0.0.1 - - [01/Aug/2025 16:44:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:32:30,923 INFO:Scanning code...
+2025-08-01 20:32:31,087 INFO: * Detected change in 'D:\\code-scanner\\uploads\\vulnerable.py', reloading
+2025-08-01 20:32:31,165 INFO: * Restarting with stat
+2025-08-01 20:32:31,501 WARNING: * Debugger is active!
+2025-08-01 20:32:31,505 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:32:34,499 INFO:Scanning code...
+2025-08-01 20:32:34,522 INFO: * Detected change in 'D:\\code-scanner\\uploads\\vulnerable.py', reloading
+2025-08-01 20:32:34,581 INFO: * Restarting with stat
+2025-08-01 20:32:34,847 WARNING: * Debugger is active!
+2025-08-01 20:32:34,851 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:32:37,145 INFO:Scanning code...
+2025-08-01 20:32:37,482 INFO:127.0.0.1 - - [01/Aug/2025 20:32:37] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:32:37,547 INFO:127.0.0.1 - - [01/Aug/2025 20:32:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:32:37,869 INFO: * Detected change in 'D:\\code-scanner\\uploads\\vulnerable.py', reloading
+2025-08-01 20:32:37,929 INFO: * Restarting with stat
+2025-08-01 20:32:38,154 WARNING: * Debugger is active!
+2025-08-01 20:32:38,158 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:32:59,226 INFO: * Detected change in 'D:\\code-scanner\\vulnerable.py', reloading
+2025-08-01 20:32:59,286 INFO: * Restarting with stat
+2025-08-01 20:32:59,531 WARNING: * Debugger is active!
+2025-08-01 20:32:59,534 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:33:04,493 INFO:127.0.0.1 - - [01/Aug/2025 20:33:04] "GET / HTTP/1.1" 200 -
+2025-08-01 20:33:04,591 INFO:127.0.0.1 - - [01/Aug/2025 20:33:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:33:09,872 INFO:Scanning code...
+2025-08-01 20:33:10,196 INFO:127.0.0.1 - - [01/Aug/2025 20:33:10] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:33:10,226 INFO:127.0.0.1 - - [01/Aug/2025 20:33:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:33:10,572 INFO: * Detected change in 'D:\\code-scanner\\uploads\\vulnerable.py', reloading
+2025-08-01 20:33:10,646 INFO: * Restarting with stat
+2025-08-01 20:33:10,873 WARNING: * Debugger is active!
+2025-08-01 20:33:10,877 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:34:15,140 INFO: * Detected change in 'D:\\code-scanner\\vulnerable.py', reloading
+2025-08-01 20:34:15,203 INFO: * Restarting with stat
+2025-08-01 20:34:15,437 WARNING: * Debugger is active!
+2025-08-01 20:34:15,441 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:34:19,925 INFO:127.0.0.1 - - [01/Aug/2025 20:34:19] "GET / HTTP/1.1" 200 -
+2025-08-01 20:34:20,004 INFO:127.0.0.1 - - [01/Aug/2025 20:34:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:34:25,820 INFO:Scanning code...
+2025-08-01 20:34:26,189 INFO:127.0.0.1 - - [01/Aug/2025 20:34:26] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:34:26,221 INFO:127.0.0.1 - - [01/Aug/2025 20:34:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:34:26,474 INFO: * Detected change in 'D:\\code-scanner\\uploads\\vulnerable.py', reloading
+2025-08-01 20:34:26,552 INFO: * Restarting with stat
+2025-08-01 20:34:26,766 WARNING: * Debugger is active!
+2025-08-01 20:34:26,769 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:34:50,843 INFO: * Detected change in 'D:\\code-scanner\\vulnerable.py', reloading
+2025-08-01 20:34:50,906 INFO: * Restarting with stat
+2025-08-01 20:34:51,116 WARNING: * Debugger is active!
+2025-08-01 20:34:51,120 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:34:53,679 INFO:127.0.0.1 - - [01/Aug/2025 20:34:53] "GET / HTTP/1.1" 200 -
+2025-08-01 20:34:53,753 INFO:127.0.0.1 - - [01/Aug/2025 20:34:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:34:58,755 INFO:Scanning code...
+2025-08-01 20:34:59,127 INFO:127.0.0.1 - - [01/Aug/2025 20:34:59] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:34:59,143 INFO: * Detected change in 'D:\\code-scanner\\uploads\\vulnerable.py', reloading
+2025-08-01 20:34:59,198 INFO: * Restarting with stat
+2025-08-01 20:34:59,437 WARNING: * Debugger is active!
+2025-08-01 20:34:59,441 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:34:59,481 INFO:127.0.0.1 - - [01/Aug/2025 20:34:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:37:00,360 INFO:127.0.0.1 - - [01/Aug/2025 20:37:00] "GET / HTTP/1.1" 200 -
+2025-08-01 20:37:00,408 INFO:127.0.0.1 - - [01/Aug/2025 20:37:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:37:03,456 INFO:Scanning code...
+2025-08-01 20:37:03,800 INFO:127.0.0.1 - - [01/Aug/2025 20:37:03] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:37:03,804 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:37:03,863 INFO: * Restarting with stat
+2025-08-01 20:37:04,063 WARNING: * Debugger is active!
+2025-08-01 20:37:04,066 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:37:04,105 INFO:127.0.0.1 - - [01/Aug/2025 20:37:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:37:19,041 INFO:127.0.0.1 - - [01/Aug/2025 20:37:19] "GET / HTTP/1.1" 200 -
+2025-08-01 20:37:19,093 INFO:127.0.0.1 - - [01/Aug/2025 20:37:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:37:22,133 INFO:Scanning code...
+2025-08-01 20:37:22,459 INFO:127.0.0.1 - - [01/Aug/2025 20:37:22] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:37:22,492 INFO:127.0.0.1 - - [01/Aug/2025 20:37:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:37:23,117 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:37:23,173 INFO: * Restarting with stat
+2025-08-01 20:37:23,366 WARNING: * Debugger is active!
+2025-08-01 20:37:23,369 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:39:01,084 INFO:127.0.0.1 - - [01/Aug/2025 20:39:01] "GET / HTTP/1.1" 200 -
+2025-08-01 20:39:01,186 INFO:127.0.0.1 - - [01/Aug/2025 20:39:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:39:04,281 INFO:Scanning code...
+2025-08-01 20:39:04,686 INFO:127.0.0.1 - - [01/Aug/2025 20:39:04] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:39:04,719 INFO:127.0.0.1 - - [01/Aug/2025 20:39:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:39:04,746 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:39:04,812 INFO: * Restarting with stat
+2025-08-01 20:39:05,100 WARNING: * Debugger is active!
+2025-08-01 20:39:05,105 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:39:18,033 INFO:127.0.0.1 - - [01/Aug/2025 20:39:18] "GET / HTTP/1.1" 200 -
+2025-08-01 20:39:18,134 INFO:127.0.0.1 - - [01/Aug/2025 20:39:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:39:37,604 INFO:Scanning code...
+2025-08-01 20:39:37,924 INFO:127.0.0.1 - - [01/Aug/2025 20:39:37] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:39:37,962 INFO:127.0.0.1 - - [01/Aug/2025 20:39:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:39:38,223 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:39:38,308 INFO: * Restarting with stat
+2025-08-01 20:39:38,525 WARNING: * Debugger is active!
+2025-08-01 20:39:38,528 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:40:17,040 INFO:127.0.0.1 - - [01/Aug/2025 20:40:17] "GET / HTTP/1.1" 200 -
+2025-08-01 20:40:17,125 INFO:127.0.0.1 - - [01/Aug/2025 20:40:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:40:20,827 INFO:Scanning code...
+2025-08-01 20:40:21,146 INFO:127.0.0.1 - - [01/Aug/2025 20:40:21] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:40:21,184 INFO:127.0.0.1 - - [01/Aug/2025 20:40:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:40:21,682 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:40:21,743 INFO: * Restarting with stat
+2025-08-01 20:40:21,961 WARNING: * Debugger is active!
+2025-08-01 20:40:21,965 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:40:53,495 INFO:127.0.0.1 - - [01/Aug/2025 20:40:53] "GET / HTTP/1.1" 200 -
+2025-08-01 20:40:53,573 INFO:127.0.0.1 - - [01/Aug/2025 20:40:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:40:55,468 INFO:Scanning code...
+2025-08-01 20:40:55,797 INFO:127.0.0.1 - - [01/Aug/2025 20:40:55] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:40:55,829 INFO:127.0.0.1 - - [01/Aug/2025 20:40:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:40:56,068 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:40:56,146 INFO: * Restarting with stat
+2025-08-01 20:40:56,365 WARNING: * Debugger is active!
+2025-08-01 20:40:56,368 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:41:54,550 INFO:127.0.0.1 - - [01/Aug/2025 20:41:54] "GET / HTTP/1.1" 200 -
+2025-08-01 20:41:54,637 INFO:127.0.0.1 - - [01/Aug/2025 20:41:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:41:56,765 INFO:Scanning code...
+2025-08-01 20:41:57,092 INFO:127.0.0.1 - - [01/Aug/2025 20:41:57] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:41:57,122 INFO:127.0.0.1 - - [01/Aug/2025 20:41:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:41:57,625 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:41:57,899 INFO: * Restarting with stat
+2025-08-01 20:41:58,099 WARNING: * Debugger is active!
+2025-08-01 20:41:58,102 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:42:34,603 INFO:127.0.0.1 - - [01/Aug/2025 20:42:34] "GET / HTTP/1.1" 200 -
+2025-08-01 20:42:34,687 INFO:127.0.0.1 - - [01/Aug/2025 20:42:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:42:36,644 INFO:Scanning code...
+2025-08-01 20:42:36,977 INFO:127.0.0.1 - - [01/Aug/2025 20:42:36] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:42:37,024 INFO:127.0.0.1 - - [01/Aug/2025 20:42:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:42:37,218 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:42:37,279 INFO: * Restarting with stat
+2025-08-01 20:42:37,504 WARNING: * Debugger is active!
+2025-08-01 20:42:37,507 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:43:10,082 INFO:127.0.0.1 - - [01/Aug/2025 20:43:10] "GET / HTTP/1.1" 200 -
+2025-08-01 20:43:10,176 INFO:127.0.0.1 - - [01/Aug/2025 20:43:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:43:12,212 INFO:Scanning code...
+2025-08-01 20:43:12,543 INFO:127.0.0.1 - - [01/Aug/2025 20:43:12] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:43:12,591 INFO:127.0.0.1 - - [01/Aug/2025 20:43:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:43:12,621 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:43:12,686 INFO: * Restarting with stat
+2025-08-01 20:43:12,950 WARNING: * Debugger is active!
+2025-08-01 20:43:12,953 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:43:37,686 INFO:127.0.0.1 - - [01/Aug/2025 20:43:37] "GET / HTTP/1.1" 200 -
+2025-08-01 20:43:37,765 INFO:127.0.0.1 - - [01/Aug/2025 20:43:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:43:39,809 INFO:Scanning code...
+2025-08-01 20:43:40,041 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:43:40,099 INFO: * Restarting with stat
+2025-08-01 20:43:40,373 WARNING: * Debugger is active!
+2025-08-01 20:43:40,377 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:43:43,073 INFO:Scanning code...
+2025-08-01 20:43:43,393 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:43:43,436 INFO: * Restarting with stat
+2025-08-01 20:43:43,703 WARNING: * Debugger is active!
+2025-08-01 20:43:43,707 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:43:45,586 INFO:Scanning code...
+2025-08-01 20:43:45,721 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:43:45,777 INFO: * Restarting with stat
+2025-08-01 20:43:46,054 WARNING: * Debugger is active!
+2025-08-01 20:43:46,058 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:43:48,427 INFO:Scanning code...
+2025-08-01 20:43:48,749 INFO:127.0.0.1 - - [01/Aug/2025 20:43:48] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:43:48,797 INFO:127.0.0.1 - - [01/Aug/2025 20:43:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:43:49,077 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:43:49,133 INFO: * Restarting with stat
+2025-08-01 20:43:49,360 WARNING: * Debugger is active!
+2025-08-01 20:43:49,365 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:44:19,406 INFO:127.0.0.1 - - [01/Aug/2025 20:44:19] "GET / HTTP/1.1" 200 -
+2025-08-01 20:44:19,490 INFO:127.0.0.1 - - [01/Aug/2025 20:44:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:44:21,580 INFO:Scanning code...
+2025-08-01 20:44:21,911 INFO:127.0.0.1 - - [01/Aug/2025 20:44:21] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:44:21,951 INFO:127.0.0.1 - - [01/Aug/2025 20:44:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:44:22,479 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:44:22,755 INFO: * Restarting with stat
+2025-08-01 20:44:22,955 WARNING: * Debugger is active!
+2025-08-01 20:44:22,958 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:44:45,856 INFO:127.0.0.1 - - [01/Aug/2025 20:44:45] "GET / HTTP/1.1" 200 -
+2025-08-01 20:44:45,938 INFO:127.0.0.1 - - [01/Aug/2025 20:44:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:44:48,195 INFO:Scanning code...
+2025-08-01 20:44:48,521 INFO:127.0.0.1 - - [01/Aug/2025 20:44:48] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:44:48,560 INFO:127.0.0.1 - - [01/Aug/2025 20:44:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:44:49,053 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:44:49,115 INFO: * Restarting with stat
+2025-08-01 20:44:49,316 WARNING: * Debugger is active!
+2025-08-01 20:44:49,319 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:45:24,141 INFO:127.0.0.1 - - [01/Aug/2025 20:45:24] "GET / HTTP/1.1" 200 -
+2025-08-01 20:45:24,222 INFO:127.0.0.1 - - [01/Aug/2025 20:45:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:45:26,080 INFO:Scanning code...
+2025-08-01 20:45:26,414 INFO:127.0.0.1 - - [01/Aug/2025 20:45:26] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:45:26,445 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:45:26,505 INFO: * Restarting with stat
+2025-08-01 20:45:26,715 WARNING: * Debugger is active!
+2025-08-01 20:45:26,718 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:45:26,752 INFO:127.0.0.1 - - [01/Aug/2025 20:45:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:46:03,634 INFO:127.0.0.1 - - [01/Aug/2025 20:46:03] "GET / HTTP/1.1" 200 -
+2025-08-01 20:46:03,685 INFO:127.0.0.1 - - [01/Aug/2025 20:46:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:46:05,591 INFO:Scanning code...
+2025-08-01 20:46:05,827 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:46:05,885 INFO: * Restarting with stat
+2025-08-01 20:46:06,333 WARNING: * Debugger is active!
+2025-08-01 20:46:06,336 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:46:07,971 INFO:Scanning code...
+2025-08-01 20:46:08,326 INFO:127.0.0.1 - - [01/Aug/2025 20:46:08] "POST /scan HTTP/1.1" 200 -
+2025-08-01 20:46:08,349 INFO: * Detected change in 'D:\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-01 20:46:08,393 INFO: * Restarting with stat
+2025-08-01 20:46:08,604 WARNING: * Debugger is active!
+2025-08-01 20:46:08,607 INFO: * Debugger PIN: 233-694-168
+2025-08-01 20:46:08,641 INFO:127.0.0.1 - - [01/Aug/2025 20:46:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-01 20:47:46,234 INFO:127.0.0.1 - - [01/Aug/2025 20:47:46] "GET / HTTP/1.1" 200 -
+2025-08-01 20:47:46,282 INFO:127.0.0.1 - - [01/Aug/2025 20:47:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-05 17:54:27,835 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-05 17:54:27,836 INFO:[33mPress CTRL+C to quit[0m
+2025-08-05 17:54:27,840 INFO: * Restarting with stat
+2025-08-05 17:54:28,038 WARNING: * Debugger is active!
+2025-08-05 17:54:28,052 INFO: * Debugger PIN: 233-694-168
+2025-08-05 17:55:23,963 INFO:Scanning code...
+2025-08-05 17:55:24,322 INFO: * Detected change in 'D:\\CyArt_Project\\CTI-PROJECT\\Functions\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-05 17:55:24,444 INFO: * Restarting with stat
+2025-08-05 17:55:24,788 WARNING: * Debugger is active!
+2025-08-05 17:55:24,792 INFO: * Debugger PIN: 233-694-168
+2025-08-05 17:55:27,205 INFO:Scanning code...
+2025-08-05 17:55:27,764 INFO:127.0.0.1 - - [05/Aug/2025 17:55:27] "POST /scan HTTP/1.1" 200 -
+2025-08-05 17:55:27,813 INFO: * Detected change in 'D:\\CyArt_Project\\CTI-PROJECT\\Functions\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-05 17:55:27,875 INFO: * Restarting with stat
+2025-08-05 17:55:28,151 WARNING: * Debugger is active!
+2025-08-05 17:55:28,155 INFO: * Debugger PIN: 233-694-168
+2025-08-05 17:55:28,292 INFO:127.0.0.1 - - [05/Aug/2025 17:55:28] "GET /static/style.css HTTP/1.1" 200 -
+2025-08-05 17:56:02,335 INFO:127.0.0.1 - - [05/Aug/2025 17:56:02] "GET / HTTP/1.1" 200 -
+2025-08-05 17:56:18,477 INFO:Scanning code...
+2025-08-05 17:56:18,913 INFO:127.0.0.1 - - [05/Aug/2025 17:56:18] "POST /scan HTTP/1.1" 200 -
+2025-08-05 17:56:18,957 INFO:127.0.0.1 - - [05/Aug/2025 17:56:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-05 17:56:19,392 INFO: * Detected change in 'D:\\CyArt_Project\\CTI-PROJECT\\Functions\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-05 17:56:19,481 INFO: * Restarting with stat
+2025-08-05 17:56:19,820 WARNING: * Debugger is active!
+2025-08-05 17:56:19,823 INFO: * Debugger PIN: 233-694-168
+2025-08-05 17:56:36,694 INFO:127.0.0.1 - - [05/Aug/2025 17:56:36] "GET / HTTP/1.1" 200 -
+2025-08-05 17:56:56,054 INFO:Scanning code...
+2025-08-05 17:56:56,086 INFO: * Detected change in 'D:\\CyArt_Project\\CTI-PROJECT\\Functions\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-05 17:56:56,185 INFO: * Restarting with stat
+2025-08-05 17:56:56,539 WARNING: * Debugger is active!
+2025-08-05 17:56:56,544 INFO: * Debugger PIN: 233-694-168
+2025-08-05 17:56:59,006 INFO:Scanning code...
+2025-08-05 17:56:59,456 INFO:127.0.0.1 - - [05/Aug/2025 17:56:59] "POST /scan HTTP/1.1" 200 -
+2025-08-05 17:56:59,537 INFO:127.0.0.1 - - [05/Aug/2025 17:56:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-05 17:56:59,560 INFO: * Detected change in 'D:\\CyArt_Project\\CTI-PROJECT\\Functions\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-05 17:56:59,646 INFO: * Restarting with stat
+2025-08-05 17:56:59,984 WARNING: * Debugger is active!
+2025-08-05 17:56:59,988 INFO: * Debugger PIN: 233-694-168
+2025-08-05 17:58:02,063 INFO:127.0.0.1 - - [05/Aug/2025 17:58:02] "GET / HTTP/1.1" 200 -
+2025-08-05 17:58:05,359 INFO:Scanning code...
+2025-08-05 17:58:05,815 INFO:127.0.0.1 - - [05/Aug/2025 17:58:05] "POST /scan HTTP/1.1" 200 -
+2025-08-05 17:58:05,943 INFO:127.0.0.1 - - [05/Aug/2025 17:58:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-05 17:58:06,357 INFO: * Detected change in 'D:\\CyArt_Project\\CTI-PROJECT\\Functions\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-05 17:58:06,437 INFO: * Restarting with stat
+2025-08-05 17:58:06,793 WARNING: * Debugger is active!
+2025-08-05 17:58:06,797 INFO: * Debugger PIN: 233-694-168
+2025-08-05 17:58:26,088 INFO:127.0.0.1 - - [05/Aug/2025 17:58:26] "GET / HTTP/1.1" 200 -
+2025-08-05 17:58:49,009 INFO:127.0.0.1 - - [05/Aug/2025 17:58:49] "GET / HTTP/1.1" 200 -
+2025-08-05 17:59:12,321 INFO:Scanning code...
+2025-08-05 17:59:12,821 INFO:127.0.0.1 - - [05/Aug/2025 17:59:12] "POST /scan HTTP/1.1" 200 -
+2025-08-05 17:59:12,953 INFO:127.0.0.1 - - [05/Aug/2025 17:59:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-05 17:59:13,118 INFO: * Detected change in 'D:\\CyArt_Project\\CTI-PROJECT\\Functions\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-05 17:59:13,223 INFO: * Restarting with stat
+2025-08-05 17:59:13,557 WARNING: * Debugger is active!
+2025-08-05 17:59:13,563 INFO: * Debugger PIN: 233-694-168
+2025-08-05 17:59:36,768 INFO:127.0.0.1 - - [05/Aug/2025 17:59:36] "GET / HTTP/1.1" 200 -
+2025-08-05 18:02:16,589 INFO:Scanning code...
+2025-08-05 18:02:17,177 INFO:Scanning code...
+2025-08-05 18:02:17,280 INFO:127.0.0.1 - - [05/Aug/2025 18:02:17] "POST /scan HTTP/1.1" 200 -
+2025-08-05 18:02:17,357 INFO: * Detected change in 'D:\\CyArt_Project\\CTI-PROJECT\\Functions\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-05 18:02:17,455 INFO: * Restarting with stat
+2025-08-05 18:02:17,816 WARNING: * Debugger is active!
+2025-08-05 18:02:17,820 INFO: * Debugger PIN: 233-694-168
+2025-08-05 21:01:50,921 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-05 21:01:50,922 INFO:[33mPress CTRL+C to quit[0m
+2025-08-05 21:01:50,922 INFO: * Restarting with stat
+2025-08-05 21:01:51,115 WARNING: * Debugger is active!
+2025-08-05 21:01:51,119 INFO: * Debugger PIN: 233-694-168
+2025-08-05 21:02:26,812 INFO:Scanning code...
+2025-08-05 21:02:27,224 INFO: * Detected change in 'D:\\CyArt_Project\\CTI-PROJECT\\Functions\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-05 21:02:27,296 INFO: * Restarting with stat
+2025-08-05 21:02:27,565 WARNING: * Debugger is active!
+2025-08-05 21:02:27,569 INFO: * Debugger PIN: 233-694-168
+2025-08-05 21:02:29,477 INFO:Scanning code...
+2025-08-05 21:02:29,583 INFO: * Detected change in 'D:\\CyArt_Project\\CTI-PROJECT\\Functions\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-05 21:02:29,632 INFO: * Restarting with stat
+2025-08-05 21:02:29,912 WARNING: * Debugger is active!
+2025-08-05 21:02:29,915 INFO: * Debugger PIN: 233-694-168
+2025-08-05 21:02:32,134 INFO:Scanning code...
+2025-08-05 21:02:32,483 INFO:127.0.0.1 - - [05/Aug/2025 21:02:32] "POST /scan HTTP/1.1" 200 -
+2025-08-05 21:02:32,556 INFO:127.0.0.1 - - [05/Aug/2025 21:02:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-05 21:02:32,930 INFO: * Detected change in 'D:\\CyArt_Project\\CTI-PROJECT\\Functions\\code-scanner\\uploads\\submitted_code.py', reloading
+2025-08-05 21:02:32,981 INFO: * Restarting with stat
+2025-08-05 21:02:33,204 WARNING: * Debugger is active!
+2025-08-05 21:02:33,207 INFO: * Debugger PIN: 233-694-168
+2025-08-05 21:02:50,566 INFO:127.0.0.1 - - [05/Aug/2025 21:02:50] "GET / HTTP/1.1" 200 -

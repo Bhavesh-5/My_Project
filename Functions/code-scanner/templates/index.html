@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OWASP Code Scanner</title>
+    <style>
+        body {
+            background-color: #0f0f0f;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: #111;
+            border: 1px solid #00ff00;
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+
+        textarea, input[type="file"] {
+            width: 100%;
+            background-color: #222;
+            color: #00ff00;
+            border: 1px solid #00ff00;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        button {
+            background-color: #00ff00;
+            color: #000;
+            padding: 10px 20px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        pre {
+            background-color: #000;
+            padding: 10px;
+            border: 1px solid #00ff00;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🕵️ OWASP Code Scanner</h1>
+        <form method="POST" action="http://localhost:5000/scan" enctype="multipart/form-data">
+            <label>Paste your Python code:</label><br>
+            <textarea name="code" rows="15" cols="80" placeholder="# Paste your code here..."></textarea><br><br>
+
+            <label>Or upload a .py file:</label><br>
+            <input type="file" name="file" accept=".py"><br><br>
+
+            <button type="submit">💣 Scan Code</button>
+        </form>
+    </div>
+</body>
+</html>
