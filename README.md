@@ -20,4 +20,4 @@ This Project is based on OWASP Top 10 and Suggested name is Cyber Threat Intelli
 
 ## Important Note:
 1) Make sure you change Firebase and web-forms API-key before deployment of project.
-2) Firebase config present in firebaseauth.js and web-forms key is present in contact-form.html, make sure you change both.
+2) Firebase config present in firebaseauth.js and homepage.js (CTI-login-signup folder) and web-forms key is present in contact-form.html, make sure you change both.
