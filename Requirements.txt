@@ -1,0 +1,9 @@
+python
+Flask
+Bandit
+node js
+HTML
+CSS
+JS
+Vscode with live server extension
+venv for linux
